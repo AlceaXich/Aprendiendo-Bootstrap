@@ -1,4 +1,8 @@
 # Quick Start
+## Elementos principales
+- Grid
+- Componentes(elementos html reutilizbles).
+- Iconos
 ## Vocabulario
 - **box-sizing:** indica cómo se deben calcular las medidas de un elemento.  Tiene tres valores posibles:
   - content-box(mas popular): Si se define el ancho de un elemento en 100 pixeles, la caja del contenido del elemento tendrá 100 pixeles de ancho, y el ancho de cualquier borde o relleno ser añadirá al ancho final desplegado.
