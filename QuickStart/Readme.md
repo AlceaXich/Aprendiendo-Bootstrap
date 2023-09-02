@@ -1,5 +1,5 @@
 # Quick Start
-## Elementos principales
+## Pilares principales
 - Grid
 - Componentes(elementos html reutilizbles).
 - Iconos
