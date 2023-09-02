@@ -1,6 +1,7 @@
 # Quick Start
 ## Pilares principales
 - Grid
+  - Cada fila tiene 12 columnas.
 - Componentes(elementos html reutilizbles).
 - Iconos
 ## Vocabulario
