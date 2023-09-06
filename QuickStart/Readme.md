@@ -10,4 +10,26 @@
   - padding-box(ya no existe)
   - **border-box:** le dice al navegador tomar en cuenta para cualquier valor que se especifique de borde o de relleno para el ancho o alto de un elemento. Es decir, si se define un elemento con un ancho de 100 pixeles. Esos 100 pixeles incluíran cualquier borde o relleno que se añadan, y la caja de contenido se encogerá para absorber ese ancho extra. Esto típicamente hace mucho más fácil dimensionar elementos.
 
-## Apuntes grid
+## Apuntes Grid de Bootstrap 5
+- Cada fila esta divida en 12 columnas.
+- Hay clases especificas:
+  - .row
+  - .col-
+  - .col-sm-
+  - .col-md-
+  - .col-lg-
+  - .col-xl-
+- Dimensiones(estas dimensiones reprsentan el ancho de la ventana donde se ve la pagina web, conocido como **viewport**):
+  - xs -> dispositivo $<$ 576px
+  - sm -> dispositivo $>=$ 576px
+  - md -> dispositivo $>=$ 768px
+  - lg -> dispositivo $>=$ 992px
+  - xl -> dispositivo $>=$ 1200px
+  - xxl -> dispositivo $>=$ 1400px
+- Las dimensiones representan un **breakpoint**. En el cual el estilo cambia. Hay 6 breakpoints.
+    ![Tabla de dimensiones](images/Tabladimensiones.png)
+- Estructura de la grid: un contenedor puede contener filas y cada fila contiene 12 columnas.
+    ![Estructura grid](images/EstrucuturaGrid.png)
+- Un contenedor contiene la estrutura grid o demas elementos html.
+  - .container -> crea un contenedor responsivo con un ancho maximo fijo, depende del tamaño del dispositivo.
+  - .container-fluid -> crea un contenedor responsivo que cubre el 100% del ancho de la ventana.
