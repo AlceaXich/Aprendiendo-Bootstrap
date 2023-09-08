@@ -28,13 +28,15 @@
   - xl -> dispositivo $>=$ 1200px
   - xxl -> dispositivo $>=$ 1400px
 - Las dimensiones representan un **breakpoint**. En el cual el estilo cambia. Hay 6 breakpoints.
-    ![Tabla de dimensiones](./QuickStart/../images/Tabladimensiones.jpg)
+    ![Tabla de dimensiones](images/Tabladimensiones.jpg)
 - Estructura de la grid: un contenedor puede contener filas y cada fila contiene 12 columnas.
-    ![Estructura grid](./QuickStart/images/EstrucuturaGrid.png)
+    
+![Estructura grid](./images/EstrucuturaGrid.png)
 - Un contenedor contiene la estrutura grid o demas elementos html.
   - .container -> crea un contenedor responsivo con un ancho maximo fijo, depende del tamaño del dispositivo.
   - .container-fluid -> crea un contenedor responsivo que cubre el 100% del ancho de la ventana.
-    ![Container y container fluid](QuickStar/images/container.png)
+    
+![Container y container fluid](images/container.png)
 - Contenedores responsivos: depende del tamaño del dispositivo se realiza un punto de quiebre, es decir, si elegimos container lg y el dispositivo menos al tamaño a lg se cubrira al 100% y si es mayor se comporta como "container".
   - container-xs -> dispositivo $<$ 576px
   - container-sm -> dispositivo $>=$ 576px
