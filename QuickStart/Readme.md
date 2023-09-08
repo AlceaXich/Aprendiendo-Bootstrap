@@ -9,6 +9,7 @@
   - **content-box(mas popular):** Si se define el ancho de un elemento en 100 pixeles, la caja del contenido del elemento tendrá 100 pixeles de ancho, y el ancho de cualquier borde o relleno ser añadirá al ancho final desplegado.
   - padding-box(ya no existe)
   - **border-box:** le dice al navegador tomar en cuenta para cualquier valor que se especifique de borde o de relleno para el ancho o alto de un elemento. Es decir, si se define un elemento con un ancho de 100 pixeles. Esos 100 pixeles incluíran cualquier borde o relleno que se añadan, y la caja de contenido se encogerá para absorber ese ancho extra. Esto típicamente hace mucho más fácil dimensionar elementos.
+  - **text-center** al agregar a una clases, centra el texto.
 
 ## Apuntes Grid de Bootstrap 5
 - Cada fila esta divida en 12 columnas.
@@ -34,3 +35,11 @@
   - .container -> crea un contenedor responsivo con un ancho maximo fijo, depende del tamaño del dispositivo.
   - .container-fluid -> crea un contenedor responsivo que cubre el 100% del ancho de la ventana.
     ![Container y container fluid](./images/container.png)
+- Contenedores responsivos: depende del tamaño del dispositivo se realiza un punto de quiebre, es decir, si elegimos container lg y el dispositivo menos al tamaño a lg se cubrira al 100% y si es mayor se comporta como "container".
+  - container-xs -> dispositivo $<$ 576px
+  - container-sm -> dispositivo $>=$ 576px
+  - container-md -> dispositivo $>=$ 768px
+  - container-lg -> dispositivo $>=$ 992px
+  - container-xl -> dispositivo $>=$ 1200px
+  - container-xxl -> dispositivo $>=$ 1400px
+- 
