@@ -46,4 +46,5 @@
   - container-lg -> dispositivo $>=$ 992px
   - container-xl -> dispositivo $>=$ 1200px
   - container-xxl -> dispositivo $>=$ 1400px
-- 
+- Para personalizar un clases, se puede agregar el nombre al costado de la clase.
+- Componentes: son elementos html reutilizable de bootstrap, tambien se puede personalizar.
