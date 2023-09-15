@@ -49,3 +49,49 @@
 - Para personalizar un clases, se puede agregar el nombre al costado de la clase.
 - Componentes: son elementos html reutilizable de bootstrap, tambien se puede personalizar.
 - Iconos: se pueden adaptar al tamaño
+- Flexbox: quiere decir como se distribuye automaticamente los elementos en el contenedor dependiendo del tamaño del dispositivo.
+  - d-flex:  para crear un contenedor flexible, transformando elementos hijos directos en elementos flexibles.
+  - flex-direction: establece el eje principal de los contenedores la direccion en el cual se van a colocar los elementos dentro del contenedor.
+
+![Flex-diection: row](images/flex-direction-row.png)
+![Flex-diection: column](images/flex-direction-row.png)
+
+- Flex-direction: puede tener estos valores:
+  - row
+  - row-reverse
+  - column
+  - column-reverse
+- justify-content en css: define como se distribuye los elementos en el **eje principal**.
+  - flex-start
+  - flex-end
+  - center
+  - space-betwwen
+  - space-around
+  - space-evenly
+- justify-content en bootstrap: nos permiten asignar el estilo
+  - .justify-content-start
+  - .justify-content-end
+  - .justify-content-center
+  - .justify-content-betwwen
+  - .justify-content-around
+  - .justify-content-evenly
+- align-items en css: define como se ditribuyn los elementos en el eje secundario al eje principal.
+  - flex-star
+  - flex-end
+  - center
+  - baseline
+  - strech(stirar)
+- align-items en bootstrap:
+  - .align-items-start
+  - .align-items-end
+  - .align-items-center
+  - .align-items-baseline
+  - .align-items-strech
+- flex-wrap en css:  especifica si los elementos "hijos" son obligados a permanecer en una misma línea o pueden fluir en varias líneas.
+  - flex-wrap:nowrap (es por defecto)
+  - flex-wrap:wrap
+  - flex-wrap:wrap-reverse
+- flex-wrap en bootstrap:
+  - .flex-nowrap
+  - .flex-wrap
+  - .flex-wrap-reverse
