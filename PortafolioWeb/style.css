@@ -1,7 +1,7 @@
 /* Barra de navegacion */
 .navbar {
     padding: 2rem;
-    background-color: rgb(229, 188, 241);
+    background-color: aliceblue;
 }
 .navbar-collapse {
     align-items:center ;
