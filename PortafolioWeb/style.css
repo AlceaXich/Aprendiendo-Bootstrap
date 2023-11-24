@@ -299,6 +299,11 @@ footer{
 .iconos-redes-sociales a:hover i{
     color: black;
 }
+.derechos-autor{
+    font-size: 15px;
+    color: #aeaeae;
+    padding:20px
+}
 /* media query: dice que se debe aplicar solo a cierto tamaño de dispostivo*/
 @media screen and (max-width: 400px) {
     .overlay p{
